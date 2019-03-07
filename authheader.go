@@ -13,7 +13,7 @@ func (h AuthHeader) IsBasic() bool {
 }
 
 func (h AuthHeader) IsNegotiate() bool {
-	return h.GetType() == "Negociate"
+	return h.GetType() == "Negotiate"
 }
 
 func (h AuthHeader) IsNTLM() bool {
